@@ -3,6 +3,7 @@ def Calcular_IMC(peso, altura):
     altura = altura
     peso = int(peso)
     imc = peso / (altura * altura)
+    imc = round(imc, 2)
     return imc
 
 def Calcular_GC(imc, edad, valor_genero):
